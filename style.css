@@ -109,11 +109,10 @@
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
 }
-/* Media query for devices with a screen width between 320px and 480px */
-/* @media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .responsive-element {
         height: 100vh;
-        width: 100vw; /* Use vw instead of vh for width */
+        width: 100vw; 
         background-size: cover;
     }
-} */
+}
